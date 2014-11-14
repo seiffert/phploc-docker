@@ -3,6 +3,10 @@ PHPLoc Docker-Container
 
 This repository holds the information required to build a [Docker](http://docker.com) container that runs [PHPLoc](https://github.com/sebastianbergmann/phploc).
 
+Limitations
+--------------------
+Please note that you'll only be able to run phploc on directories below your current working directory since only the current working directory is being mounted as a Docker volume inside the container. (At least if you're using the alias as suggested below.)
+
 Usage
 --------------------
 
